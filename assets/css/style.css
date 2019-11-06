@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
 
 /*
 Theme Name:         Electro
@@ -3898,7 +3898,7 @@ table.cart .coupon .button {
     border-bottom-left-radius: 0;
     margin-left: -4px;
     position: relative;
-    top: 0px;
+    top: 1px;
 }
 
 table.cart input[name="update_cart"] {
@@ -16865,6 +16865,11 @@ table.cart tbody tr.cart_item td,
 .navbar-primary .navbar-nav .nav-link,
 .cart-collaterals .cart_totals table.shop_table,
 table.cart .coupon .button,
-.actions {
-    font-family: 'Changa', sans-serif!important;
+.actions,
+.button,
+.category-content h4,
+.footer-bottom-widgets,
+.btn .btn-secondary,
+.dropdown-menu .dropdown-menu-mini-cart {
+    font-family: 'Tajawal', serif!important;
 }
