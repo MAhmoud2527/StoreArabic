@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
 
 /*
 Theme Name:         Electro
@@ -16849,4 +16849,22 @@ ul.products>li.product.list-view.list-view-small .button:active::after,
     color: #41414c;
     margin: 0;
     padding: 0;
+}
+
+table.cart .coupon .button:hover {
+    background: #000;
+    color: #fff;
+}
+
+table.cart .coupon .button {
+    color: #000;
+    transition: all .5s;
+}
+
+table.cart tbody tr.cart_item td,
+.navbar-primary .navbar-nav .nav-link,
+.cart-collaterals .cart_totals table.shop_table,
+table.cart .coupon .button,
+.actions {
+    font-family: 'Changa', sans-serif!important;
 }
