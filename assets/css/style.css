@@ -16262,8 +16262,8 @@ div#preloader {
             }  */
 }
 
-.tab-content ul.products>li.product {
-    /* padding: 20px; */
+#tab-products-1 .products>li.product {
+    padding: 20px;
 }
 
 .venderProduct .tab-content ul.columns-4 .product {
