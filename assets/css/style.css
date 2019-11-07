@@ -16895,9 +16895,14 @@ table.cart .coupon .button,
 .product-inner,
 .product-inner h3,
 #tab-specification tbody,
-.product-content h4 {
+.product-content h4,
+.navbar-search .search-categories>select {
     font-family: 'Tajawal', serif!important;
     line-height: 1.8;
+}
+
+#product_cat {
+    width: 122px;
 }
 
 .entry-subtitle {
