@@ -2879,6 +2879,10 @@ ul.products>li.product.list-view:not(.list-view-small) .button::before,
     top: 4px;
 }
 
+ul.products>li.product.list-view:not(.list-view-small) .button::before {
+    top: -3px;
+}
+
 ul.products>li.product.list-view:not(.list-view-small) .button.add_to_cart_button::before,
 .section-onsale-product ul.products>.list-view.onsale-product:not(.list-view-small) .button.add_to_cart_button::before,
 .section-onsale-product-carousel .onsale-product-carousel .onsale-product ul.products>.list-view.onsale-product-content:not(.list-view-small) .button.add_to_cart_button::before,
@@ -16259,7 +16263,7 @@ div#preloader {
 }
 
 .tab-content ul.products>li.product {
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .venderProduct .tab-content ul.columns-4 .product {
@@ -16887,6 +16891,7 @@ table.cart .coupon .button,
 .electro-description p,
 .comment-text p,
 .product-inner,
+.product-inner h3,
 #tab-specification tbody {
     font-family: 'Tajawal', serif!important;
     line-height: 1.8;
