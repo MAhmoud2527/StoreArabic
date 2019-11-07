@@ -16873,3 +16873,7 @@ table.cart .coupon .button,
 .dropdown-menu .dropdown-menu-mini-cart {
     font-family: 'Tajawal', serif!important;
 }
+
+.ratings {
+    color: #000;
+}
