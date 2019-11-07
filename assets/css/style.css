@@ -16262,7 +16262,9 @@ div#preloader {
             }  */
 }
 
-#tab-products-1 .products>li.product {
+#tab-products-1 .products>li.product,
+#tab-products-2 .products>li.product,
+#tab-products-3 .products>li.product {
     padding: 20px;
 }
 
@@ -16892,7 +16894,8 @@ table.cart .coupon .button,
 .comment-text p,
 .product-inner,
 .product-inner h3,
-#tab-specification tbody {
+#tab-specification tbody,
+.product-content h4 {
     font-family: 'Tajawal', serif!important;
     line-height: 1.8;
 }
