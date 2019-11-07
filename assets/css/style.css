@@ -16870,8 +16870,14 @@ table.cart .coupon .button,
 .category-content h4,
 .footer-bottom-widgets,
 .btn .btn-secondary,
+.entry-subtitle,
+.text-content,
 .dropdown-menu .dropdown-menu-mini-cart {
     font-family: 'Tajawal', serif!important;
+}
+
+.entry-subtitle {
+    line-height: 1.7;
 }
 
 .ratings {
