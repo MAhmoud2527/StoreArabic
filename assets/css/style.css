@@ -16883,7 +16883,11 @@ table.cart .coupon .button,
 .intellectual-property p,
 .venderdiv,
 .entry-title,
-.entry-summary {
+.entry-summary,
+.electro-description p,
+.comment-text p,
+.product-inner,
+#tab-specification tbody {
     font-family: 'Tajawal', serif!important;
     line-height: 1.8;
 }
@@ -16894,4 +16898,9 @@ table.cart .coupon .button,
 
 .ratings {
     color: #000;
+}
+
+.hover-area .add_to_wishlist {
+    text-align: center;
+    width: 100%;
 }
