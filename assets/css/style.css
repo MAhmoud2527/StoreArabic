@@ -8767,6 +8767,7 @@ section.section-product-cards-carousel .owl-carousel .owl-stage-outer {
 .sidebar .product_list_widget .electro-price {
     display: block;
     position: relative;
+    color: #ef0000;
 }
 
 .sidebar .product_list_widget .electro-price::after {
@@ -16872,8 +16873,19 @@ table.cart .coupon .button,
 .btn .btn-secondary,
 .entry-subtitle,
 .text-content,
-.dropdown-menu .dropdown-menu-mini-cart {
+.dropdown-menu .dropdown-menu-mini-cart,
+.product-title,
+.media-body h3,
+.contact-page-title,
+.wpb_wrapper p,
+.inner-bottom-xs ol,
+.inner-bottom-xs p,
+.intellectual-property p,
+.venderdiv,
+.entry-title,
+.entry-summary {
     font-family: 'Tajawal', serif!important;
+    line-height: 1.8;
 }
 
 .entry-subtitle {
