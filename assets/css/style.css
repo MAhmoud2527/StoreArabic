@@ -16902,7 +16902,7 @@ table.cart .coupon .button,
 }
 
 #product_cat {
-    width: 122px;
+    width: 122px!important;
 }
 
 .entry-subtitle {
