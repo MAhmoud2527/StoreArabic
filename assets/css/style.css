@@ -16917,3 +16917,88 @@ table.cart .coupon .button,
     text-align: center;
     width: 100%;
 }
+
+.electro-nav-tabs>li.nav-item a.active::before {
+    content: '';
+    position: absolute;
+    height: 24px;
+    width: 53px;
+    left: 0px;
+    top: -14px;
+    border-left: 2px solid #fdbd04;
+    border-top: 2px solid #fdbd04;
+    background: none!important;
+    opacity: 1;
+    border-radius: unset;
+}
+
+.electro-nav-tabs>li.nav-item a.active::after {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 48px;
+    right: -16px;
+    bottom: 6px;
+    border-right: 2px solid #fdbd04!important;
+    border-bottom: 2px solid #fdbd04!important;
+    opacity: 1;
+    border-radius: unset;
+}
+
+.electro-nav-tabs>li.nav-item a::after {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 15px;
+    right: -16px;
+    bottom: 6px;
+    border-right: 2px solid #fdbd04!important;
+    border-bottom: 2px solid #fdbd04!important;
+    opacity: 0;
+    border-radius: unset;
+    transition: all .5s;
+}
+
+.electro-nav-tabs>li.nav-item a::before {
+    content: '';
+    position: absolute;
+    height: 24px;
+    width: 15px;
+    left: 0px;
+    top: -14px;
+    border-left: 2px solid #fdbd04;
+    border-top: 2px solid #fdbd04;
+    background: none!important;
+    opacity: 0;
+    border-radius: unset;
+    transition: all .5s;
+}
+
+.electro-nav-tabs>li.nav-item a:hover::after {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 48px;
+    right: -16px;
+    bottom: 6px;
+    border-right: 2px solid #fdbd04!important;
+    border-bottom: 2px solid #fdbd04!important;
+    opacity: 1;
+    border-radius: unset;
+    transition: all .5s;
+}
+
+.electro-nav-tabs>li.nav-item a:hover::before {
+    content: '';
+    position: absolute;
+    height: 24px;
+    width: 53px;
+    left: -10px;
+    top: -14px;
+    border-left: 2px solid #fdbd04;
+    border-top: 2px solid #fdbd04;
+    background: none!important;
+    opacity: 1;
+    border-radius: unset;
+    transition: all .5s;
+}
